@@ -10,11 +10,15 @@ export const AuthProvider = ({ children }) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [isDropdownOpen1, setIsDropdownOpen1] = useState(false)
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    
 
     const toggleDropdown = () => {
         setIsMenuOpen(!isMenuOpen)
+      
     }
 
+  
+    
     const contextData = {
         isDropdownOpen,
         setIsDropdownOpen,
@@ -24,6 +28,7 @@ export const AuthProvider = ({ children }) => {
         setIsMenuOpen,
         toggleDropdown,
         baseUrl,
+      
     }
 
     return (

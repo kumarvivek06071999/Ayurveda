@@ -9,6 +9,7 @@ const Navbar = () => {
             <TopNav />
             <Logo />
             <NavMenu />
+
         </div>
     )
 }

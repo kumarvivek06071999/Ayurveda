@@ -6,7 +6,7 @@ import { useAuth } from '../../context/data/AuthContext';
 
 
 
-const SimpleSlider = () => {
+const Carousel = () => {
   // const baseUrl = "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C214%2C3008%2C1579&wid=1200&hei=630&scl=2.506666666666667";
   const { baseUrl } = useAuth()
 
@@ -41,4 +41,4 @@ const SimpleSlider = () => {
   );
 }
 
-export default SimpleSlider
+export default Carousel;
