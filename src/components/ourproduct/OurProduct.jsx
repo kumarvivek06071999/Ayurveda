@@ -32,7 +32,7 @@ const OurProduct = () => {
         {
             id: 3,
             title: 'Sanyasi Joshila Tablet',
-            image: '/asset 8.webp',
+            image: asset8,
             name: 'Sanyasi Joshila Tablet',
             price: "699.00",
             link: "/sanyasi-joshila-tablet",
@@ -40,7 +40,7 @@ const OurProduct = () => {
         {
             id: 4,
             title: 'For PREMATURE EJACULATION',
-            image: '/asset 9.webp',
+            image: asset9,
             name: 'Sanyasi Stamban Tablet',
             price: "699.00",
             link: "/sanyasi-stamban-tablet",
@@ -48,7 +48,7 @@ const OurProduct = () => {
         {
             id: 5,
             title: 'Cure Gas, Acidity and Indigestion',
-            image: '/asset 10.webp',
+            image: asset10,
             name: 'Sanyasi Hajma Tablet',
             price: "699.00",
             link: "/sanyasi-hajma-tablet",
@@ -56,7 +56,7 @@ const OurProduct = () => {
         {
             id: 6,
             title: 'Sanyasi Shilajit Power Tablet',
-            image: '/asset 11.webp',
+            image: asset11,
             name: 'Sanyasi Shilajit Sudh resin (20 g)',
             price: "900.00",
             link: "/sanyasi-shilajit-power-tablet",
@@ -64,7 +64,7 @@ const OurProduct = () => {
         {
             id: 7,
             title: 'For WEIGHT LOSS',
-            image: '/asset 12.webp',
+            image: asset12,
             name: 'Sanyasi Slimming Table',
             price: "699.00",
             link: "/sanyasi-slimming-tablet",
@@ -72,7 +72,7 @@ const OurProduct = () => {
         {
             id: 8,
             title: 'For LONG and STRONG HAIR',
-            image: '/asset 13.jpeg',
+            image: asset13,
             name: 'Sanyasi Strong Hair Oil',
             price: "699.00",
             link: "/sanyasi-strong-hair-oil",
@@ -80,7 +80,7 @@ const OurProduct = () => {
         {
             id: 9,
             title: 'Increase APPETITE and GROWTH',
-            image: '/asset 14.webp',
+            image: asset14,
             name: 'Sanyasi Growthex Syrup',
             price: "699.00",
             link: "/sanyasi-growthex-syrup",
@@ -88,7 +88,7 @@ const OurProduct = () => {
         {
             id: 10,
             title: 'For CURE PILES',
-            image: '/asset 15.webp',
+            image: asset15,
             name: 'Sanyasi Piles Tablet',
             price: "699.00",
             link: "/sanyasi-piles-tablet",
@@ -96,7 +96,7 @@ const OurProduct = () => {
         {
             id: 11,
             title: 'For JOINT PAIN and ARTHRITIS',
-            image: '/asset 16.webp',
+            image: asset16,
             name: 'Sanyasi Jod Dard Tablet',
             price: "699.00",
             link: "/sanyasi-jod-dard-tablet",
@@ -104,7 +104,7 @@ const OurProduct = () => {
         {
             id: 12,
             title: 'To Grow HEIGHT FAST',
-            image: '/asset 17.webp',
+            image: asset17,
             name: 'Sanyasi Growthex  Tablet',
             price: "699.00",
             link: "/sanyasi-growthex-tablet",
@@ -112,7 +112,7 @@ const OurProduct = () => {
         {
             id: 13,
             title: 'FOR LEUKORRHEA (सफेद पानी)',
-            image: '/asset 18.webp',
+            image: asset18,
             name: 'Sanyasi Nari Prabha Tablet',
             price: "699.00",
             link: "/sanyasi-nari-prabha-tablet",
@@ -120,7 +120,7 @@ const OurProduct = () => {
         {
             id: 14,
             title: 'For Diabetes',
-            image: '/asset 19.webp',
+            image: asset19,
             name: 'Sanyasi Diab Controller Tablet',
             price: "699.00",
             link: "/sanyasi-diab-controller-tablet",
@@ -128,7 +128,7 @@ const OurProduct = () => {
         {
             id: 15,
             title: 'For HIGH BP',
-            image: '/asset 20.webp',
+            image: asset20,
             name: 'Sanyasi BP-27 Tablet',
             price: "699.00",
             link: "/sanyasi-bp27-tablet",
@@ -136,7 +136,7 @@ const OurProduct = () => {
         {
             id: 16,
             title: 'FOR KIDNEY STONE',
-            image: '/asset 21.webp',
+            image: asset21,
             name: 'Sanyasi Pathri Tablet',
             price: "699.00",
             link: "/sanyasi-pathri-tablet",
@@ -149,7 +149,7 @@ const OurProduct = () => {
         {
             id: 17,
             title: "To Increase Power In Vein's",
-            image: '/asset 22.webp',
+            image: asset22,
             name: 'Sanyasi Joshila Oil',
             price: "699.00",
             link: "/sanyasi-joshila-oil",
@@ -157,7 +157,7 @@ const OurProduct = () => {
         {
             id: 18,
             title: 'For Health, Vigour and Vitality',
-            image: '/asset 23.webp',
+            image: asset23,
             name: 'Joshila Kit',
             price: "999.00",
             link: "/sanyasi-joshila-kit",
@@ -165,7 +165,7 @@ const OurProduct = () => {
         {
             id: 19,
             title: 'For Men Power and Premature Ejaculation',
-            image: '/asset 24.webp',
+            image: asset24,
             name: 'Stamban Kit',
             price: "999.00",
             link: "/sanyasi-stamban-kit",
