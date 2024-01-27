@@ -9,7 +9,7 @@ const Logo = () => {
     <div className=' font-roboto max-w-[1140px] mx-auto my-2 grid grid-cols-4 items-center max-lg:grid-cols-2 max-lg:px-8 header '>
       <div className=' col-span-1 max-lg:col-span-1'>
         <Link to='/'>
-          <img className=' h-4/5 w-4/5' src="src\assets\asset 0.png" alt="" />
+          <img className=' h-4/5 w-4/5' src="src\assets\asset0.png" alt="" />
         </Link>
       </div>
       <div className=' col-span-2 hidden lg:flex'>
