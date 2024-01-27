@@ -20,7 +20,7 @@ const OurClinicCard = ({ product }) => {
 
             <div className=' py-2  hover:z-20  rounded-md shadow-all lg:w-[370px] lg:h-[172px max-sm:w-full flex max-sm:flex-row  font-roboto font-semibold border border-[#ccc]  '>
                 <div className='flex justify-center items-start pl-1 max-sm:mr-2 max-sm:ml-1'>
-                    <img className='w-[150px] h-[150px] max-sm:w-[110px] max-sm:h-[110px]  rounded-full' src={baseUrl + product.url} alt="" />
+                    <img className='w-[150px] h-[150px] max-sm:w-[110px] max-sm:h-[110px]  rounded-full' src={product.url} alt="" />
                 </div>
                 <div className='w-[210px] h-[150px] pl-1'>
                     <h4 className='text-[#c98600] hover:text-black'>{product.title}</h4>
