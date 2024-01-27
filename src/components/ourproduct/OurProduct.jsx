@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ProductCard from './productCard/ProductCard'
 // import { withRouter } from 'react-router-dom'
-import { asset0, asset1, asset2, asset3, asset4, asset5, asset6, asset7, asset8, asset9, asset10, asset11, asset12, asset13, asset14, asset15, asset16, asset17, asset18, asset19, asset20, asset21, asset22, asset23, asset24, asset25, asset26, asset27, asset28, asset29, asset30, asset31, asset32, asset33, asset34, asset35, asset36, asset37, asset38, asset39, asset40, asset41, asset42, asset43, asset44, asset45, asset46, asset47, asset48 } from '../../assets/index'
+import { asset6, asset7, asset8, asset9, asset10, asset11, asset12, asset13, asset14, asset15, asset16, asset17, asset18, asset19, asset20, asset21, asset22, asset23, asset24 } from '../../assets/index'
 
 const OurProduct = () => {
 

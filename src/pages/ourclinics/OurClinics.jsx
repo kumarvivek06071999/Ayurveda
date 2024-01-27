@@ -1,7 +1,7 @@
 import React from 'react'
 import OurClinicCard from '../../components/ourproduct//clinicCard/OurClinicCard'
 import { Link } from 'react-router-dom'
-
+import { asset27, asset28, asset29, asset30, asset31, asset32 } from '../../assets/index'
 
 const OurClinics = () => {
 
@@ -10,7 +10,7 @@ const OurClinics = () => {
 
         {
             id: 1,
-            url: '/asset 27.webp',
+            url: asset27,
             title: 'Kodia Pul Old Delhi',
             Desc: '2284, Kodia Pul Chowk, Near Old Delhi Railway Station, Delhi 110006',
             mob: +9351553719,
@@ -21,7 +21,7 @@ const OurClinics = () => {
 
         {
             id: 2,
-            url: '/asset 28.webp',
+            url: asset28,
             title: 'Gwalior MP',
             Desc: 'Madhowganj Chowraha, Lashkar, Gwalior (MP). 474001',
             mob: +9351553719,
@@ -30,7 +30,7 @@ const OurClinics = () => {
         },
         {
             id: 3,
-            url: '/asset 29.webp',
+            url: asset29,
             title: 'Patel Market Bhopal',
             Desc: 'Shop No.4, Patel Market, Near Sangam Cinema, Bhopal (MP) 462001',
             mob: +9351553719,
@@ -39,7 +39,7 @@ const OurClinics = () => {
         },
         {
             id: 4,
-            url: '/asset 30.webp',
+            url: asset30,
             title: 'Jaipur Rajasthan',
             Desc: '102 Gurukripa Building, Near Mayank Cinema, Sindhi Camp, Jaipur, Rajasthan 302006',
             mob: +9351553719,
@@ -49,16 +49,16 @@ const OurClinics = () => {
 
         {
             id: 5,
-            url: '/asset 31.webp',
+            url: asset31,
             title: 'Ajmer Rajasthan',
             Desc: 'Shop No.5, Opposite Nagpal Hotel, Railway Station Road, Ajmer, Rajasthan 305001',
             mob: +9351553719,
-            clinic: 'ajmer-clinic', 
+            clinic: 'ajmer-clinic',
             map: 'https://www.google.com/maps/place/Sanyaasi+Ayurveda/@26.4548798,74.6350588,17z/data=!3m1!4b1!4m5!3m4!1s0x396be71e5fc7c0d3:0x9cd17ec8f7fc95f0!8m2!3d26.4548798!4d74.6372475',
         },
         {
             id: 6,
-            url: '/asset 32.webp',
+            url: asset32,
             title: 'Delhi Gate Agra',
             Desc: 'Govardhan Complex, Opposite Delhi Gate Smarak, Delhi Gate, Agra (UP) 282002',
             mob: +9351553719,
