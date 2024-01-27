@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useAuth } from '../../context/data/AuthContext';
-
+import { asset2, asset3, asset4, asset5 } from '../../assets/index'
 
 
 const Carousel = () => {
@@ -26,16 +26,16 @@ const Carousel = () => {
       {/* <h2>Fade</h2> */}
       <Slider {...settings}>
         <div className='  '>
-          <img className=' w-full' src={baseUrl + "/asset 2.webp"} />
+          <img className=' w-full' src={asset2} />
         </div>
         <div className=' '>
-          <img className=' w-full' src={baseUrl + "/asset 3.webp"} />
+          <img className=' w-full' src={asset3} />
         </div>
         <div className='  '>
-          <img className=' w-full' src={baseUrl + "/asset 5.webp"} />
+          <img className=' w-full' src={asset5} />
         </div>
         <div className=''>
-          <img className=' w-full' src={baseUrl + "/asset 4.webp"} />
+          <img className=' w-full' src={asset4} />
         </div>
       </Slider>
     </div>
