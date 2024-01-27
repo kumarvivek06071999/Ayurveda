@@ -5,7 +5,7 @@ const AuthContext = createContext()
 
 export const AuthProvider = ({ children }) => {
 
-    const baseUrl = "../../../public/assets"
+    const baseUrl = "/src/assets"
 
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const [isDropdownOpen1, setIsDropdownOpen1] = useState(false)
