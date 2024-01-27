@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
             <div className=' m-2 py-2 my-1  hover:z-20 bg-white rounded-md shadow-all backdrop-blur-4  w-[275px] h-[336px] flex flex-col gap-2 col-span-1 font-roboto font-semibold max-sm:w-4/5 max-sm:mx-auto max-sm:my-2 max-md:w-11/12 max-md:mx-auto mx-auto '>
                 <div className='flex flex-col justify-center items-center gap-1 '>
                     <p className=' text-center'> {product.title}</p>
-                    <img className=' w-[217px] h-[217] mx-auto' src={baseUrl + product.image} alt={product.title} />
+                    <img className=' w-[217px] h-[217] mx-auto' src={product.image} alt={product.title} />
                     <h3>{product.name} </h3>
 
                 </div>
