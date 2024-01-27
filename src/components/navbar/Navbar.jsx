@@ -5,7 +5,7 @@ import NavMenu from './navmenu/NavMenu'
 
 const Navbar = () => {
     return (
-        <div className=' font-roboto '>
+        <div className=' font-roboto sticky bg-white top-0 w-full z-50'>
             <TopNav />
             <Logo />
             <NavMenu />

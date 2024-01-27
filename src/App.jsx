@@ -6,6 +6,7 @@ import AuthContext, { AuthProvider } from './context/data/AuthContext'
 import AllProduct from './pages/allproducts/AllProducts'
 import Cart from './pages/cart/Cart'
 import NoPage from './pages/nopage/NoPage'
+import Login from './pages/login/Login'
 const App = () => {
 
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/products' element={<AllProduct />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/*' element={<NoPage />} />
         </Routes>
       </AuthProvider>

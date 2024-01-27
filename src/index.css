@@ -6,13 +6,61 @@
 
 
 body {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
 }
 
 .shadow-all:hover {
         box-shadow: 0 0 8px black;
 }
 
+.shadow_login_page {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.758);
+
+}
+
+.phone-container {
+        position: relative;
+}
+
+.search-input {
+        padding-left: 30px;
+        /* Adjust the padding to make space for the icon */
+}
+
+.phone-container::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 12px;
+        background-image: url('/src/assets/phone-solid.svg');
+        /* Replace with the path to your icon */
+        background-size: cover;
+}
+
+.unlock-container {
+        position: relative;
+}
+
+.search-input {
+        padding-left: 30px;
+        /* Adjust the padding to make space for the icon */
+}
+
+.unlock-container::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 11px;
+        height: 13px;
+        background-image: url('/src/assets/unlock-solid.svg');
+        /* Replace with the path to your icon */
+        background-size: cover;
+}
 /* #menuOptions {
         display: none;
         opacity: 0;

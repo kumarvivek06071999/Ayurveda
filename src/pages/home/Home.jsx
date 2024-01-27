@@ -5,11 +5,13 @@ import OurClinics from '../ourclinics/OurClinics'
 import ViewAll from '../../components/viewall/ViewAll'
 import Carousel from '../../components/carousel/Carousel'
 import Diseases from '../../components/diseases/Diseases'
+import Services from '../../components/services/Services'
 
 
 const Home = () => {
 
   const producturl = '/products'
+  const diseasesurl = '/diseases'
 
   return (
     <div className=' h-full'>
@@ -18,7 +20,9 @@ const Home = () => {
         <OurProduct />
         <ViewAll url={producturl} />
         <OurClinics />
-        <Diseases />
+        {/* <Diseases /> */}
+        {/* <ViewAll url={diseasesurl} /> */}
+        <Services />
       </Layout>
     </div>
 
